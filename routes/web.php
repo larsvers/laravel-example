@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/filmSite', 'FilmsController@getFilms')->name('films');
-
 Route::get('/vueFun', 'VueFunController@index');

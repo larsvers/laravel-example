@@ -15,7 +15,7 @@
  <body>
 
     <div id="app">
-      <example-component :films="{{ $films }}"/>
+      <example-component/>
     </div>
 
     <script src="/js/app.js"></script>
